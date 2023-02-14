@@ -1,0 +1,34 @@
+body {
+  background-color: #1F2937;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    color: white;
+    font-family: "Andale Mono";
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size:large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.brand {
+  font-size: x-large;
+  font-weight: bold;
+}
