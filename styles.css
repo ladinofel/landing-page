@@ -1,34 +1,131 @@
 body {
   background-color: #1F2937;
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  flex-direction: column;
+	font-family: "Andale Mono";
 }
 
 .header-container {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    color: white;
-    font-family: "Andale Mono";
-    align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  margin-bottom: 70px;  
+  padding-left: 100px;
+  padding-right: 100px;  
 }
 
-ul {
-    display: flex;
-    gap: 20px;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-size:large;
+.header-links {
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size:medium;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .brand {
   font-size: x-large;
   font-weight: bold;
 }
+
+.sub-header-container {
+  display: flex; 
+  flex: 1;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px; 
+}
+
+.left-sub-content {
+	color: white;
+	font-size: larger;
+	flex-basis: 50%;
+}
+
+.sub-title {
+	font-size: xx-large;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.sub-text {
+	margin-bottom: 20px;
+	text-align: justify;
+	margin-right: 40px;
+}
+
+.plant {
+	height: 310px;
+	width: auto;
+	border-radius: 8px;
+	flex-basis: 50%;
+}
+
+button {
+	border-radius: 8px;
+	padding: 5px;
+	background-color: #3882F6;
+	color: white;
+	font-size: medium;	
+	border-color: #3882F6;
+}
+
+.top-middle-container {
+	display: flex;
+	margin-top: 40px;
+	background-color: white;
+  color: black;	
+	width: 100%;
+	flex-wrap: wrap;
+  
+}
+
+.full-bleed {
+	box-shadow: 0 0 0 100vmax white;
+	clip-path: inset(0 -100vmax);
+}
+
+.middle-subtitle {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  padding: 40px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.product-list,
+.image-list {
+  list-style: none;
+  display: flex;
+  flex-basis: 100%;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+}
+
+.image-list img {
+  width: 180px;
+  height: auto;
+  border-radius: 15px;
+  border: 4px solid #3882F6;
+}
+
+.product-list li {
+  flex: 1;
+  text-align: center;  
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
