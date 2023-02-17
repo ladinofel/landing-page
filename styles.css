@@ -96,7 +96,6 @@ button {
   padding: 40px;
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
 }
 
 .product-list,
@@ -134,7 +133,6 @@ button {
 .quote {
   font-size: 28px;
   font-style: italic;
-  text-align: center justify;
 }
 
 .patient {
@@ -145,8 +143,8 @@ button {
 
 .bottom-middle-container,
 .full-bleed-two {
-  box-shadow: 0 0 0 100vmax #E5E7EB;
-	clip-path: inset(0 -100vmax);
+  box-shadow: 0 0 0 100vmax #E5E7EB;  
+  clip-path: inset(0 -100vmax);
 }
 
 .call-to-action {
@@ -187,13 +185,12 @@ button {
 .call-to-action,
 .full-bleed-three {
   box-shadow: 0 0 0 100vmax white;
-	clip-path: inset(0 -100vmax);
+  clip-path: inset(0 -100vmax);
 }
 
 .footer {
   background-color: #1F2937;
   display: flex;
-  flex: 1;
   justify-content: center;
 }
 
