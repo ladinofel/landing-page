@@ -2,7 +2,7 @@ body {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-	font-family: Helvetica;
+  font-family: Helvetica;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -41,52 +41,52 @@ a {
 }
 
 .left-sub-content {
-	color: white;
-	font-size: larger;
-	flex-basis: 50%;
+  color: white;
+  font-size: larger;
+  flex-basis: 50%;
 }
 
 .sub-title {
-	font-size: xx-large;
-	font-weight: bold;
-	margin-bottom: 20px;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .sub-text {
-	margin-bottom: 20px;
-	text-align: justify;
-	margin-right: 40px;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-right: 40px;
 }
 
 .plant {
-	height: 310px;
-	width: auto;
-	border-radius: 8px;
-	flex-basis: 50%;
+  height: 310px;
+  width: auto;
+  border-radius: 8px;
+  flex-basis: 50%;
 }
 
 button {
-	border-radius: 8px;
-	padding: 5px;
-	background-color: #3882F6;
-	color: white;
-	font-size: medium;	
-	border-color: #3882F6;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #3882F6;
+  color: white;
+  font-size: medium;	
+  border-color: #3882F6;
 }
 
 .top-middle-container {
-	display: flex;
-	margin-top: 40px;
-	background-color: white;
+  display: flex;
+  margin-top: 40px;
+  background-color: white;
   color: black;	
-	width: 100%;
-	flex-wrap: wrap;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .top-middle-container,
 .full-bleed {
-	box-shadow: 0 0 0 100vmax white;
-	clip-path: inset(0 -100vmax);
+  box-shadow: 0 0 0 100vmax white;
+  clip-path: inset(0 -100vmax);
 }
 
 .middle-subtitle {
