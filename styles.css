@@ -37,7 +37,6 @@ a {
 
 .sub-header-container {
   display: flex; 
-  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #1F2937;
   padding: 100px 100px 60px 100px;
@@ -61,11 +60,15 @@ a {
   margin-right: 40px;
 }
 
+.right-sub-image {
+  display: flex;
+}
 .plant {
   height: 310px;
   width: auto;
   border-radius: 8px;
   flex-basis: 50%;
+  flex-shrink: 1;
 }
 
 button {
